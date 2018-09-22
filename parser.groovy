@@ -2,7 +2,7 @@ import groovy.json.JsonSlurper
 
 try {
     List<String> artifacts = new ArrayList<String>()
-    def artifactsUrl = "https://raw.githubusercontent.com/Sudokamikaze/TWRP-tools/master/device-targets.json"          
+    def artifactsUrl = "https://raw.githubusercontent.com/Sudokamikaze/Jenkins-TWRP/master/device-targets.json"          
     def artifactsObjectRaw = ["curl", "-s", "-H", "accept: application/json", "-k", "--url", "${artifactsUrl}"].execute().text
     def jsonSlurper = new JsonSlurper()
     def artifactsJsonObject = jsonSlurper.parseText(artifactsObjectRaw)
