@@ -27,7 +27,7 @@ int build() {
         . build/envsetup.sh
         breakfast omni_"$Device"-eng
         mka recoveryimage
-        if [ ! "0" -ne "$?" ]: then
+        if [ ! "0" -ne "$?" ]; then
             cd $RESULT_DIR 
             mv recovery.img $Device-recovery.img
         fi
