@@ -74,6 +74,7 @@ node('Builder') {
         <project name="clamor95/android_device_unlegacy_recovery" path="device/lge/hammerhead" remote="github" revision="hammerhead" />
         <project name="clamor95/android_device_unlegacy_recovery" path="device/lge/mako" remote="github" revision="mako-r" />
         <project name="clamor95/android_device_unlegacy_recovery" path="device/asus/transformer" remote="github" revision="transformer" />
+        <project name="clamor95/android_device_unlegacy_recovery" path="device/asus/grouper" remote="github" revision="grouper" />
 
         <!-- KERNELS -->
         <project path="kernel/qcom/msm8960"   name="Unlegacy-Android/android_kernel_qcom_msm8960" remote="github" revision="stable" />
