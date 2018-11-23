@@ -69,6 +69,7 @@ node('Builder') {
         <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
 
         <!-- DEVICES -->
+        <project name="clamor95/android_device_unlegacy_recovery" path="device/lenovo/a2109" remote="github" revision="cl2n" />
         <project name="clamor95/android_device_unlegacy_recovery" path="device/asus/flo" remote="github" revision="flo" />
         <project name="clamor95/android_device_unlegacy_recovery" path="device/asus/deb" remote="github" revision="deb" />
         <project name="clamor95/android_device_unlegacy_recovery" path="device/lge/hammerhead" remote="github" revision="hammerhead" />
