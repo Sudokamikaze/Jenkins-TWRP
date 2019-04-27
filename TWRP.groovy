@@ -35,7 +35,7 @@ int build() {
     }
 }
 
-node('Builder') {
+node('Slave') {
     env
     currentBuild.description = env.Device
     env.WORKSPACE = '/home/jenkins/workspace/TWRP'
