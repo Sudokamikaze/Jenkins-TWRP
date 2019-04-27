@@ -57,7 +57,7 @@ node('Slave') {
 
         <!-- MISC -->
         <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" remote="aosp" />
-        <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-8.1" groups="pdk-cw-fs"/> 
+        <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-9.0" groups="pdk-cw-fs"/> 
 
         <!-- TOOLCHAINS -->
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" remote="aosp" revision="master" />
